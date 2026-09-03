@@ -50,14 +50,61 @@ export function MatchCard({
     </article>
   );
 }
-
 function TeamBadge({ name }: { name: string }) {
+  const teamLogos: Record<string, string> = {
+    Milan: "/AC_Milan.png",
+    Atalanta: "/atalanta.svg",
+    Bologna: "/bologna.webp",
+    Como: "/como.png",
+    Fiorentina: "/fiorentina.webp",
+    Frosinone: "/frosinone.webp",
+    Genoa: "/genoa.jpg",
+    Inter: "/inter.png",
+    Juventus: "/juventus.png",
+    Lazio: "/lazio.png",
+    Lecce: "/lecce.jpg",
+    Monza: "/monza.png",
+    Napoli: "/napoli.png",
+    Parma: "/parma.png",
+    Roma: "/roma.png",
+    Sassuolo: "/sassuolo.svg",
+    Torino: "/torino.webp",
+    Udinese: "/udinese.svg",
+    Venezia: "/venezia.webp",
+    Verona: "/verona.png",
+  };
+
   const initials = name
     .split(" ")
     .map((word) => word.charAt(0))
     .join("")
     .slice(0, 2)
     .toUpperCase();
+
+  const logo = teamLogos[name];
+
+  return (
+    <div className="match-team">
+      <div className="team-crest-placeholder">
+        {logo ? (
+          <img
+            src={logo}
+            alt={`Stemma ${name}`}
+            style={{
+              width: "82%",
+              height: "82%",
+              objectFit: "contain",
+            }}
+          />
+        ) : (
+          initials
+        )}
+      </div>
+      <strong>{name}</strong>
+    </div>
+  );
+}
+
 
   return (
     <div className="match-team">
