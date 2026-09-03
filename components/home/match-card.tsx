@@ -105,12 +105,3 @@ function TeamBadge({ name }: { name: string }) {
     </div>
   );
 }
-
-
-  return (
-    <div className="match-team">
-      <div className="team-crest-placeholder">{initials}</div>
-      <strong>{name}</strong>
-    </div>
-  );
-}
