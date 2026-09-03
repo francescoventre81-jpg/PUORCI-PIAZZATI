@@ -105,3 +105,4 @@ function TeamBadge({ name }: { name: string }) {
     </div>
   );
 }
+
