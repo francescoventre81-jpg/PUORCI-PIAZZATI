@@ -72,6 +72,7 @@ function TeamBadge({ name }: { name: string }) {
     Udinese: "/udinese.svg",
     Venezia: "/venezia.webp",
     Verona: "/verona.png",
+    Cagliari: "/cagliari.png",
   };
 
   const initials = name
