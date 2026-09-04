@@ -1,0 +1,1 @@
+import{r as e}from"./framework-CXnKph_e.js";import{openCookieSettings as t}from"./google-analytics-DdaRHWf4.js";var n=e();function r(){return(0,n.jsx)(`button`,{className:`cookie-settings-button`,onClick:t,type:`button`,children:`Gestisci cookie`})}export{r as CookieSettingsButton};

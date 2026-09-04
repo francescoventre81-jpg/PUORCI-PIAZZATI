@@ -1,0 +1,1 @@
+import{r as e}from"./framework-CXnKph_e.js";import{t}from"./image-Dtoyn638.js";var n=e();function r({logoUrl:e,team:r,size:i=44}){return(0,n.jsx)(`span`,{className:`team-crest`,style:{height:i,width:i},children:e?(0,n.jsx)(t,{alt:`Logo ${r}`,fill:!0,sizes:`${i}px`,src:e,unoptimized:!0}):(0,n.jsx)(`b`,{children:r.slice(0,2).toUpperCase()})})}export{r as t};

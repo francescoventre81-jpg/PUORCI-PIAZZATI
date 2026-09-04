@@ -1,0 +1,1 @@
+var e=`https://puorcipiazzati.it`;export{e as t};
