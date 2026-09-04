@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
 // wrangler.jsonc
-"name": "puorcipiazzati",
+"name": "fantapuorci",
   "compatibility_date": "2026-08-31",
   "compatibility_flags": [
     "nodejs_compat"
