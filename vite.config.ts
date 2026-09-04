@@ -14,7 +14,7 @@ const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 const localBindingConfig = {
   // Keep deploying to the original Worker because it owns the existing
   // encrypted production secrets (Supabase, email and PayPal).
-  name: "puorcipiazzati",
+  name: "fantapuorci",
   main: "./worker/index.ts",
   compatibility_flags: ["nodejs_compat"],
   // Keep the historical workers.dev hostname alive only so old Google results
