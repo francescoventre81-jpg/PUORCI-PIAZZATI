@@ -16,3 +16,12 @@
     "binding": "IMAGES"
   }
 }
+{
+  "observability": {
+    "logs": {
+      "enabled": false,
+      "invocation_logs": true
+    }
+  }
+}
+
